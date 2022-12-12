@@ -55,7 +55,7 @@
 
 > Here is a link to deployed project.
 
-- [Live Demo Link]()
+- [Live Demo Link](https://bernabasy.github.io/AwesomeBooks_with_ES6/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
