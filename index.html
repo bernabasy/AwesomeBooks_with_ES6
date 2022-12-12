@@ -8,6 +8,56 @@
  <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <header>
+        <nav class="navigation">
+          <p>Awesome Books</p>
+          <ul class="nav-list">
+            <li>
+              <a href="#lists" id="list">List</a>
+            </li>
+            <li>
+              <a href="#adds" id="add-new">Add new</a>
+            </li>
+            <li>
+              <a href="#contacts" id="contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <p id="date"></p>
+      </header>
+      <main>
+        <section class="list" id="lists">
+          <h2 class="text-center mb-2">All awesome Books</h2>
+          <table class="table">
+            <tbody id="book-list"></tbody>
+          </table>
+        </section>
+        <section class="add col-6 text-center" id="adds">
+          <form id="book-form" class="m-4 col-5">
+            <h4 class="main-tittle text-center">Add a new book</h4>
+            <div class="form-group mb-2">
+              <input type="text" placeholder="Title" id="title" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <input type="text" placeholder="Author" id="author" class="form-control" required>
+            </div>
+            <input type="submit" value="add book" class="mt-2 float-end btn-submit btn btn-success">
+          </form> 
+        </section>
+        <section class="contact" id="contacts">
+          <h1 class="heading">Contact information</h1>
+          <p id="p">Do you have any questions or you just want to say "Hello"? <br> You can reach out to us!</p>
+          <ul id="co-ul" class="co-ul">
+            <li id="email">our email: bernabasjosef@gmil.com</li>
+            <li id="email">our phone number: +251926517118</li>
+            <li id="email">our address Nefas Silk Lafto 3/4/5 Ethiopia</li>
+          </ul>
+        </section>
+      </main>
+      <footer>
+       <p>Copyright</p>   
+       <p>...</p>
+      </footer>
     <script src="index.js"></script>
 </body>
 </html>
