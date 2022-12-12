@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin-inline: 20px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2%;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.active {
+  color: #00f;
+}
+
+.navigation {
+  border: 2px solid #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+}
+
+footer p {
+  margin-top: 0.5px;
+  margin-bottom: auto;
+}
+
+.navigation > p {
+  margin-bottom: 0;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+  gap: 20px;
+}
+
+.nav-list > li {
+  padding: 5px;
+}
+
+#date {
+  align-self: flex-end;
+  padding-right: 1%;
+  margin-bottom: 0;
+}
+
+#list,
+#add-new {
+  border-right: 2px solid #000;
+  padding-right: 25px;
+}
+
+hr {
+  border: 1px solid #000;
+  width: 10%;
+}
+
+#book-list tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  padding: 20px;
+  border: 2px solid #000;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 400px;
+  bottom: 0;
+  gap: 20px;
+  width: 100%;
+}
