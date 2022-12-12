@@ -1,5 +1,5 @@
 import Book from './modules/UI.js';
-import { Date } from './modules/date.js';
+import Date from './modules/date.js';
 import * as module from './modules/selector.js';
 
 window.addEventListener('load', Date());
